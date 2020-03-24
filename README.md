@@ -54,7 +54,7 @@ Project Organization
 
 2. Open the `01_gtit_maps.Rproj` file. The `renv` package will be automatically installed if it isn't already.
 
-3. In your R console, type `renv::restore(lockfile = "renv.lock")`. This will install **the project's R dependencies**/
+3. In your R console, type `renv::restore(lockfile = "renv.lock")`. This will install **the project's R dependencies**\
 — you might still need to manually fix some unresolved system dependencies.
 
 4. Open and run the `0.1.0_nmr-wytham-map.Rmd` notebook
