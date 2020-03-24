@@ -9,8 +9,9 @@ Nilo Merino Recalde\
 
 <br>
 
-A very small 3D map project that makes rendering snapshots of Wytham Woods very easy./
-This project is based on [Tyler Morgan-Wall](https://www.tylermw.com/)'s fantastic [Rayshader](https://www.rayshader.com/) package.
+A very small 3D map project that makes rendering snapshots of Wytham Woods very easy.\
+This project is based on [Tyler Morgan-Wall](https://www.tylermw.com/)'s fantastic [Rayshader](https://www.rayshader.com/) package.\
+See a preview of the notebook [here](../notebooks/0.1.0_nmr-wytham-map.md).
 
 <br>
 
