@@ -20,14 +20,12 @@ Project Organization
     ├── LICENSE
     ├── README.md          <- The top-level README.
     ├── data
-    │   └── raw            <- The original .asc files. This is created in the notebook.
+    │   └── raw            <- The original .asc files. This is created from the notebook.
     │
-    │
-    ├── notebooks          <- .Rmd notebooks and corresponding .md for GitHub.
+    ├── notebooks          <- .Rmd notebook and corresponding .md for GitHub.
     │   ├── 0.1.0_nmr-wytham-map.Rmd 
     │   └── 0.1.0_nmr-wytham-map.md  
     │                                 
-    │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures.
     │
