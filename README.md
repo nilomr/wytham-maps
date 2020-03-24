@@ -1,15 +1,15 @@
 3D hillshaded maps of Wytham Woods
 ==============================
-Nilo Merino Recalde
+Nilo Merino Recalde\
 23 March, 2020
 
-
+<br>
 
 ![Wytham Woods, Oxford](/reports/figures/angle_1.jpeg)
 
 A very small 3D map project that makes rendering snapshots of Wytham Woods very easy.
 This project is based on [Tyler Morgan-Wall](https://www.tylermw.com/)'s fantastic [Rayshader](https://www.rayshader.com/) package.
-
+<br>
 
 Project Organization
 ------------
@@ -42,19 +42,22 @@ Project Organization
     │   └── nmr-map-source.R 
     │
 
+<br>
 
 
-
-To use this repository:
+#### To use this repository:
 
 1. Navigate to the folder where you want to install the repository. Then type `git clone https://github.com/nilomr/wytham-maps.git`
-2. Open the `01_gtit_maps.Rproj` file.
-3. Install the required libraries with `renv::restore()`
+
+2. Open the `01_gtit_maps.Rproj` file. The `renv` package will be automatically installed if it isn't already.
+
+3. In your R console, type `renv::restore(lockfile = "renv.lock")`. This will install **the project's R dependencies** — you might still need to manually fix some unresolved system dependencies.
+
 4. Open and run the `0.1.0_nmr-wytham-map.Rmd` notebook
 
+<br>
 
-
-**To do:**
+#### To do
 - [x] Add renv.lock
 - [x] Clean notebook
 - [x] Make third palette
