@@ -45,12 +45,12 @@ Project Organization
 
 
 
-To use this repository, clone it () and open the R project (howw). with renv?? there is a good chance that you will need to install some dependencies I don't know about lolololo
+To use this repository:
 
 1. Navigate to the folder where you want to install the repository. Then type `git clone https://github.com/nilomr/wytham-maps.git`
-2. Open the `01_gtit_maps.Rproj`
+2. Open the `01_gtit_maps.Rproj` file.
 3. Install the required libraries with `renv::restore()`
-4. Open and run the `0.1.0_nmr-wytham-map.Rmd` file
+4. Open and run the `0.1.0_nmr-wytham-map.Rmd` notebook
 
 
 
