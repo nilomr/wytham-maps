@@ -6,7 +6,7 @@ date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   github_document:
     toc: true
-    toc_depth: 5
+    toc_depth: 4
 editor_options:
   chunk_output_type: console
 ---
