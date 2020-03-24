@@ -74,7 +74,7 @@ boundbox <- extent(c(bottomL[1], topR[1], bottomL[2], topR[2]))
 # Indicate reduction factor for matrix, 
 # 1 = full size, < 1 = faster render
 # Increase resolution before final render (!!!)
-red <- 1
+red <- 0.3
 
 # Combine, crop, convert to matrix and reduce resolution
 elevation_data_wytham <- 
@@ -231,5 +231,5 @@ take.snapshot(
 
 <br>
 
-And that's it - for now!
+And that's it! - for now.
 
