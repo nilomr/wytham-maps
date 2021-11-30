@@ -27,11 +27,11 @@ library(rgdal)
 data_path <- file.path(getwd(), "data")
 figures_path <- file.path(getwd(), "reports", "figures")
 
-sp40ne <- "https://environment.data.gov.uk/UserDownloads/interactive/a57af98725df4468926d9e7479613e8046972/LIDARCOMP/LIDAR-DSM-1M-SP40ne.zip"
-sp40nw <- "https://environment.data.gov.uk/UserDownloads/interactive/a57af98725df4468926d9e7479613e8046972/LIDARCOMP/LIDAR-DSM-1M-SP40nw.zip"
+sp40ne <- "https://environment.data.gov.uk/UserDownloads/interactive/fe7178ddc75f4d81ac5e596b9948215498892/LIDARCOMP/LIDAR-DSM-1M-SP40ne.zip"
+sp40nw <- "https://environment.data.gov.uk/UserDownloads/interactive/fe7178ddc75f4d81ac5e596b9948215498892/LIDARCOMP/LIDAR-DSM-1M-SP40nw.zip"
 
-sp40ne_zip <- file.path(data_path, "lidar-dsm-1m-SP40NE.zip")
-sp40nw_zip <- file.path(data_path, "lidar-dsm-1m-SP40NW.zip")
+sp40ne_zip <- file.path(data_path, "LIDAR-DSM-1M-SP40ne.zip")
+sp40nw_zip <- file.path(data_path, "LIDAR-DSM-1M-SP40nw.zip")
 
 if (!dir.exists(file.path(data_path, "raw"))) {
   dir.create(file.path(data_path, "raw"))
