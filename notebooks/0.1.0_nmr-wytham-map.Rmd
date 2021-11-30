@@ -32,7 +32,8 @@ This project is based on [Tyler Morgan-Wall](https://www.tylermw.com/)'s fantast
 ### Download LiDAR data
 From [the horse's](https://data.gov.uk/dataset/80c522cc-e0bf-4466-8409-57a04c456197/lidar-composite-dsm-2017-1m) mouth:
 
-> The LiDAR Composite DSM (Digital Surface Model) is a raster elevation model covering >60% of England at 1m spatial resolution.
+> The LiDAR Composite DSM (Digital Surface Model) is a raster elevation model
+covering >60% of England at 1m spatial resolution.
 
 > The DSM (Digital Surface Model) is produced from the last return LIDAR signal and includes heights of objects, such as vehicles,
 > buildings and vegetation, as well as the terrain surface. Available to download as ASCII files in 5km grids, data is presented in 
@@ -89,7 +90,11 @@ elevation_data_wytham <-
 
 ### Render hillshaded 3D model
 
-I have built three colour palettes that work *ok* with these data, but finding a single colour scheme that works for such diversity of textures is quite challenging. You can add your own using `make.texture()`, which is just a wrapper for Rayshader's `create_texture()` that also names it and saves an example.
+I have built three colour palettes that work *ok* with these data, but finding a
+single colour scheme that works for such diversity of textures is quite
+challenging. You can add your own using `make.texture()`, which is just a
+wrapper for Rayshader's `create_texture()` that also names it and saves an
+example.
 
 ![](../reports/figures/texture_green.jpeg) &nbsp;&nbsp; ![](../reports/figures/texture_tan.jpeg) &nbsp;&nbsp;  ![](../reports/figures/texture_gold.jpeg)
 
@@ -106,13 +111,17 @@ render.scene(
 
 ```
 
-An 'rgl' window will now open. The 'rgl' device is interactive: you can rotate by clicking and dragging with your left mouse button, control zoom with the centre button and change the simulated focal length with the right button. Have fun!
+An 'rgl' window will now open. The 'rgl' device is interactive: you can rotate
+by clicking and dragging with your left mouse button, control zoom with the
+centre button and change the simulated focal length with the right button. Have
+fun!
 
 <br>
 
-### Aerial photography!
-We can grab a couple of snapshots from different angles before closing the 'rgl' window.
-I have predefined some simulated cameras (e.g. `angle_1` below), which can be found in the source code. Feel free to add your own!
+### Aerial photography! We can grab a couple of snapshots from different angles
+before closing the 'rgl' window. I have predefined some simulated cameras (e.g.
+`angle_1` below), which can be found in the source code. Feel free to add your
+own!
 
 ##### A general view of the village of Wytham and the woods behind it:
 
@@ -167,7 +176,11 @@ take.snapshot(
 
 <br>
 
-Now, let's render the same scene with different lighting: a lower 'sun' shining from the ENE. You might have noticed that, in the previous images, the hills looked taller than they actually are - their real height is a bit, ahem, underwhelming. This time, let's take them down to their real height by setting `exaggerate_z` to `FALSE`. I included this argument that makes everything 40% taller beacuse, well, why not.
+Now, let's render the same scene with different lighting: a lower 'sun' shining
+from the ENE. You might have noticed that, in the previous images, the hills
+looked taller than they actually are - their real height is a bit, ahem,
+underwhelming. This time, let's take them down to their real height by setting
+`exaggerate_z` to `FALSE`.
 
 ```{r }
 
